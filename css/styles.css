@@ -17,12 +17,13 @@ a {
     text-decoration: none;
 }
 .container {
-    max-width: 1601px;
+    max-width: 1140px;
     padding-left: 130px;
     display: flex;
     align-items: center;
     padding-top: 42px;
     flex-wrap: wrap;
+    margin: 0 auto;
 }
 #logo-header {
 color: #FFF;
@@ -32,13 +33,13 @@ font-style: normal;
 font-weight: 400;
 line-height: 150%; /* 36px */
 letter-spacing: 1.44px;
-margin-right: 211px;
+margin-right: 140px;
 
 }
 #links-header {
     display: flex;
     gap: 50px;
-    margin-right: 172px;
+    margin-right: auto;
 }
 .header-link {
 color: #FFF;
@@ -83,6 +84,7 @@ transition: scale 250ms cubic-bezier(0.445, 0.05, 0.55, 0.95), color 250ms cubic
 #main-block {
     padding-top: 208px;
     color:#fff;
+    max-width: 1140px;
     padding-left: 218px;
     padding-bottom: 244px;
 }
@@ -119,6 +121,7 @@ letter-spacing: 0.02em;
     padding-top: 140px;
     padding-bottom: 140px;
     margin: 0 auto ;
+    max-width: 1140px;
 }
 .text-main {
     color: #000;
@@ -203,6 +206,10 @@ padding-top: 10px;
     transition: scale 250ms cubic-bezier(0.445, 0.05, 0.55, 0.95) ;
 
 }
+.special-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
 .offers-item:hover {
     scale: 1.05;
 
@@ -282,6 +289,10 @@ line-height: 150%;
     padding-bottom: 70px;
     justify-content: center;
 
+}
+.section-four {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .first-block-blog {
     display: flex;
@@ -377,6 +388,10 @@ footer{
     padding-bottom: 140px;
     padding-top: 70px;
     background-color: rgba(38, 148, 153, 0.04);
+}
+.footer {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 .icon-footer {
     margin-top: 20px;
